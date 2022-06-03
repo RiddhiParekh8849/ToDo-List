@@ -1,0 +1,60 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.awesomeproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:6:5-25:19
+14        android:name="com.awesomeproject.MainApplication"
+14-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:7:7-38
+15        android:allowBackup="false"
+15-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:11:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.6.0] /Users/ritesh/.gradle/caches/transforms-3/d97418f29556dc00d9262accd924e8ac/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:9:7-41
+18        android:label="@string/app_name"
+18-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:8:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:10:7-52
+20        android:theme="@style/AppTheme" >
+20-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:12:7-38
+21        <activity
+21-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:13:7-24:18
+22            android:name="com.awesomeproject.MainActivity"
+22-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:14:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+23-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:16:9-118
+24            android:exported="true"
+24-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:19:9-32
+25            android:label="@string/app_name"
+25-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:15:9-41
+26            android:launchMode="singleTask"
+26-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:17:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:18:9-51
+28            <intent-filter>
+28-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:20:9-23:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:13-65
+29-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:21:21-62
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:13-73
+31-->/Users/ritesh/Documents/AwesomeProject/android/app/src/main/AndroidManifest.xml:22:23-70
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
